@@ -8,6 +8,8 @@ try {
 		echo "The Node name is: ${env.NODE_NAME}"
 		echo "The Build Number is: ${env.BUILD_NUMBER}"
 		echo "The Jenkins Home directory is: ${JENKINS_HOME}"
+
+		sendSlackNotifications("STARTED")
 					
 		stage('CheckoutCode'){
 			git branch: 'development', 
