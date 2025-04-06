@@ -94,7 +94,7 @@
 	    
 	    <snapshotRepository>
 	      <id>nexus</id>
-	      <name>Mithun Technologies Snapshot Nexus Repository </name>
+	      <name>admin </name>
 	      <url>http://172.31.4.88:8081/repository/icicibank-snapshot/</url>
 	    </snapshotRepository>
 	    
